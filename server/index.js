@@ -15,12 +15,7 @@ const PORT = process.env.PORT || 3000;
 connectDB();
 
 app.use(cors({
-  origin: [
-    'http://localhost:3000',
-    'http://localhost:5173',
-    'https://vikesh-whiteboard.netlify.app',
-    'https://collaborative-whiteboard-480h.onrender.com'
-  ],
+  origin: 'https://test-uj6e.onrender.com',
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'Accept']

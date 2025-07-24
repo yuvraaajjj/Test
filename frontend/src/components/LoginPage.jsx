@@ -10,7 +10,7 @@ const LoginPage = ({ onLogin }) => {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
-  const API_BASE_URL = 'https://collaborative-whiteboard-480h.onrender.com'
+  const API_BASE_URL = 'https://test-backend-ozii.onrender.com'
 
   const handleInputChange = (e) => {
     const { name, value } = e.target
